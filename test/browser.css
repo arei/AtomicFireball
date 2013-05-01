@@ -1,0 +1,98 @@
+html
+{
+	background: #606060;
+}
+
+body 
+{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin: 10px 25px;
+	background: #FFFFFF;
+	border: 5px solid #FFFFFF;
+	border-radius: 25px 25px 0px 0px;	
+}
+
+.af > .header
+{
+	padding: 5px 20px;
+}
+
+.af > .header > .title
+{
+	color: red;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.af > .header > .subtitle
+{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.tests
+{
+	background: #C0C0C0;
+	border-top: 5px solid #FFFFFF;
+	padding: 10px 20px;
+}
+
+.tests > .test
+{
+	position: relative;
+	overflow: auto;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.tests > .test > .title
+{
+	padding: 5px;
+	border: 2px outset black;
+	background: black;
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	margin-right: 205px;
+}
+
+.tests > .test > .state
+{
+	position: absolute;	
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 200px;
+	padding-top: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px outset black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tests > .test > .state.pending
+{
+	background: blue;
+	color: white;
+}
+
+.tests > .test > .state.skipped
+{
+	background: orange;
+	color: white;
+}
+
+.tests > .test > .state.passed
+{
+	background: green;
+	color: black;
+}
+
+.tests > .test > .state.failed
+{
+	background: red;
+	color: yellow;
+}
